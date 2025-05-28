@@ -1,0 +1,79 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// Modelo de Facultades
+model Facultad {
+  id        Int       @id @default(autoincrement())
+  nombre    String    @unique @db.VarChar(255)
+  codigo    String?   @db.VarChar(50)
+  sheetId   String?   @map("sheet_id") @db.VarChar(255)
+  activa    Boolean   @default(true)
+  carreras  Carrera[]
+  syncLogs  SyncLog[]
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+
+  @@map("facultades")
+}
+
+// Modelo de Carreras
+model Carrera {
+  id         Int       @id @default(autoincrement())
+  facultadId Int       @map("facultad_id")
+  nombre     String    @db.VarChar(255)
+  codigo     String    @db.VarChar(50)
+  activa     Boolean   @default(true)
+  facultad   Facultad  @relation(fields: [facultadId], references: [id], onDelete: Cascade)
+  examenes   Examen[]
+  createdAt  DateTime  @default(now()) @map("created_at")
+  updatedAt  DateTime  @updatedAt @map("updated_at")
+  
+  @@unique([facultadId, codigo])
+  @@map("carreras")
+}
+
+// Modelo de Exámenes/Materias
+model Examen {
+  id                Int      @id @default(autoincrement())
+  carreraId         Int      @map("carrera_id")
+  nombreMateria     String   @map("nombre_materia") @db.VarChar(255)
+  fecha             DateTime @db.Date
+  hora              DateTime? @db.Time
+  tipoExamen        String?   @map("tipo_examen") @db.VarChar(100)
+  monitoreo         String?   @db.VarChar(100)
+  materialPermitido String?   @map("material_permitido") @db.Text
+  observaciones     String?   @db.Text
+  activo            Boolean   @default(true)
+  carrera           Carrera   @relation(fields: [carreraId], references: [id], onDelete: Cascade)
+  createdAt         DateTime  @default(now()) @map("created_at")
+  updatedAt         DateTime  @updatedAt @map("updated_at")
+
+  @@map("examenes")
+}
+
+// Modelo de Logs de Sincronización
+model SyncLog {
+  id                   Int      @id @default(autoincrement())
+  facultadId           Int      @map("facultad_id")
+  tipoOperacion        String   @map("tipo_operacion") @db.VarChar(50)
+  resultado            String   @db.VarChar(50)
+  mensaje              String?  @db.Text
+  registrosProcesados  Int      @default(0) @map("registros_procesados")
+  facultad             Facultad @relation(fields: [facultadId], references: [id], onDelete: Cascade)
+  createdAt            DateTime @default(now()) @map("created_at")
+
+  @@map("sync_logs")
+}
