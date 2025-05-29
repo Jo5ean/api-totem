@@ -1,0 +1,61 @@
+{
+  "timestamp": "2025-05-29T18:53:05.938Z",
+  "datos": {
+    "facultad": {
+      "id": "ingenieria",
+      "nombre": "FACULTAD DE INGENIERIA",
+      "nombreCorto": "FI",
+      "metadatos": {
+        "universidad": "Universidad Católica de Salta",
+        "ubicacion": "Salta, Argentina",
+        "web": "https://www.ucasal.edu.ar",
+        "descripcionGeneral": "Cronogramas de exámenes de la Universidad Católica de Salta",
+        "contacto": {
+          "web": "https://www.ucasal.edu.ar/home-facultad-de-ingenieria",
+          "email": "ingenieria@ucasal.edu.ar",
+          "telefonos": {
+            "secretaria": "+54 387 4268500",
+            "coordinacion": "+54 387 4268501"
+          }
+        },
+        "descripcion": "Cronogramas de exámenes de la Facultad de Ingeniería de la Universidad Católica de Salta"
+      }
+    },
+    "fechaGeneracion": "2025-05-29T18:53:05.938Z",
+    "configuracion": {
+      "filtrarFechasDesde": "ayer",
+      "sheetId": "10-IUeW-NZMvZkwwxxjspdNG9-jbBvtXhgWG3Bcwxqr0"
+    },
+    "resumen": {
+      "totalCarreras": 1,
+      "totalExamenes": 1
+    },
+    "carreras": {
+      "138": {
+        "codigo": "138",
+        "nombre": "Lic. EN HIGIENE Y SEGURIDAD",
+        "examenes": [
+          {
+            "carrera": "17",
+            "materia": "RELACIONES INT.II",
+            "fecha": {
+              "original": "28/5/2025",
+              "iso": "2025-05-28",
+              "legible": "miércoles, 28 de mayo de 2025",
+              "timestamp": 1748401200000
+            },
+            "hora": "18:00",
+            "tipoExamen": "escrito en sede",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "",
+            "monitoreo": "-------------------",
+            "archivo": "138-_Lic._en_Higiene_y_Seg.2.csv"
+          }
+        ],
+        "archivosOriginales": [
+          "138-_Lic._en_Higiene_y_Seg.2.csv"
+        ]
+      }
+    }
+  }
+}

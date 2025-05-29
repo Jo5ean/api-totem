@@ -1,0 +1,326 @@
+{
+  "timestamp": "2025-05-29T18:52:46.767Z",
+  "datos": {
+    "facultad": {
+      "id": "economia-administracion",
+      "nombre": "FACULTAD DE ECONOMIA Y ADMINISTRACION",
+      "nombreCorto": "FEA",
+      "metadatos": {
+        "universidad": "Universidad Católica de Salta",
+        "ubicacion": "Salta, Argentina",
+        "web": "https://www.ucasal.edu.ar",
+        "descripcionGeneral": "Cronogramas de exámenes de la Universidad Católica de Salta",
+        "contacto": {
+          "web": "https://www.ucasal.edu.ar/home-facultad-de-economia-y-administracion",
+          "email": "economiayadministracion@ucasal.edu.ar",
+          "telefonos": {
+            "secretaria": "+54 387 4268518",
+            "coordinacion": "+54 387 4268520"
+          }
+        },
+        "descripcion": "Cronogramas de exámenes de la Facultad de Economía y Administración de la Universidad Católica de Salta"
+      }
+    },
+    "fechaGeneracion": "2025-05-29T18:52:46.767Z",
+    "configuracion": {
+      "filtrarFechasDesde": "hoy",
+      "sheetId": "1NVGjcJFoJigektPblUdHuzGqVsY7PiD-hZuLBqe4MNk"
+    },
+    "resumen": {
+      "totalCarreras": 9,
+      "totalExamenes": 13
+    },
+    "carreras": {
+      "9": {
+        "codigo": "9",
+        "nombre": "TEC. UNIV. SEC. EJECUTIVO",
+        "examenes": [
+          {
+            "carrera": "9",
+            "materia": "ÉT.PROF.Y RESP.SOC.",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "14:00",
+            "tipoExamen": "Escrito en sede",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "",
+            "monitoreo": "------------",
+            "archivo": "_9-TEC._UNIV._SEC._EJECUTIVO.csv"
+          }
+        ],
+        "archivosOriginales": [
+          "_9-TEC._UNIV._SEC._EJECUTIVO.csv"
+        ]
+      },
+      "10": {
+        "codigo": "10",
+        "nombre": "LICENCIATURA EN ECONOMÍA",
+        "examenes": [
+          {
+            "carrera": "10",
+            "materia": "DES. ECONOMICO",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "16:00",
+            "tipoExamen": "Escrito en sede",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "",
+            "monitoreo": "---------------",
+            "archivo": "10-_LIC._EN_ECONOMIA.csv"
+          }
+        ],
+        "archivosOriginales": [
+          "10-_LIC._EN_ECONOMIA.csv"
+        ]
+      },
+      "11": {
+        "codigo": "11",
+        "nombre": "ADM DE EMP",
+        "examenes": [
+          {
+            "carrera": "11",
+            "materia": "REG. TRIBUT.",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "16:00",
+            "tipoExamen": "escrito en sede",
+            "materialPermitido": "Los alumnos deben escribir sus respuestas en forma manual y posteriormente digitalizar las hojas y subirlas a la plataforma.",
+            "observaciones": "",
+            "monitoreo": "-----------------",
+            "archivo": "_11-LIC_EN_ADM_de_EMPRESAS..csv"
+          }
+        ],
+        "archivosOriginales": [
+          "_11-LIC_EN_ADM_de_EMPRESAS..csv"
+        ]
+      },
+      "14": {
+        "codigo": "14",
+        "nombre": "CONTADOR PÚBLICO",
+        "examenes": [
+          {
+            "carrera": "14",
+            "materia": "TEOR. Y TEC. IMP. I",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "16:00",
+            "tipoExamen": "Escrito en sede",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "Examen manuscrito.",
+            "monitoreo": "---------------------",
+            "archivo": "14_CONTADOR_PÚBLICO..csv"
+          }
+        ],
+        "archivosOriginales": [
+          "14_CONTADOR_PÚBLICO..csv"
+        ]
+      },
+      "15": {
+        "codigo": "15",
+        "nombre": "LIC. EN COMERCIALIZACIÓN",
+        "examenes": [
+          {
+            "carrera": "15",
+            "materia": "PLAN DE MARKETING",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "14:00",
+            "tipoExamen": "Carga de trabajo y defensa oral",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "el trabajo debe ser enviado al mail del docente",
+            "monitoreo": "---------------",
+            "archivo": "15_LIC._EN_COMERCIALIZACIÓN.csv"
+          }
+        ],
+        "archivosOriginales": [
+          "15_LIC._EN_COMERCIALIZACIÓN.csv"
+        ]
+      },
+      "30": {
+        "codigo": "30",
+        "nombre": "LIC EN RR PP E INSTITUCIONALES",
+        "examenes": [
+          {
+            "carrera": "30",
+            "materia": "RELAC.INTERNAC.",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "14:00",
+            "tipoExamen": "Escrito en sede",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "",
+            "monitoreo": "-----------",
+            "archivo": "_30_-_LIC_EN_RRPP_E_INSTITUCIONALES..csv"
+          }
+        ],
+        "archivosOriginales": [
+          "_30_-_LIC_EN_RRPP_E_INSTITUCIONALES..csv"
+        ]
+      },
+      "88": {
+        "codigo": "88",
+        "nombre": "TEC EN GESTIÓN DE BANCOS Y EMPRESAS FINANCIERAS",
+        "examenes": [
+          {
+            "carrera": "88",
+            "materia": "ANALISIS E INTERPRET",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "14:00",
+            "tipoExamen": "Escrito en Sede",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "",
+            "monitoreo": "PROCTORING",
+            "archivo": "-88TEC_EN_GESTIÓN_DE_BANCOS_Y_EMPRESAS_FIN.csv"
+          },
+          {
+            "carrera": "88",
+            "materia": "CONTRATOS Y TITULOS",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "18:00",
+            "tipoExamen": "Oral en domicilio",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "",
+            "monitoreo": "-------",
+            "archivo": "-88TEC_EN_GESTIÓN_DE_BANCOS_Y_EMPRESAS_FIN.csv"
+          }
+        ],
+        "archivosOriginales": [
+          "-88TEC_EN_GESTIÓN_DE_BANCOS_Y_EMPRESAS_FIN.csv"
+        ]
+      },
+      "133": {
+        "codigo": "133",
+        "nombre": "LIC. EN ADMINISTRACIÓN AGROPECUARIA",
+        "examenes": [
+          {
+            "carrera": "133",
+            "materia": "RECURSOS FORESTALES",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "16:00",
+            "tipoExamen": "Oral en domicilio",
+            "materialPermitido": "El examen se rendira a las 21hs, la docente se comuco con los alumnos",
+            "observaciones": "",
+            "monitoreo": "----------------",
+            "archivo": "_133_-_LIC._EN_ADMINISTRACIÓN_AGROPECUARIA.csv"
+          }
+        ],
+        "archivosOriginales": [
+          "_133_-_LIC._EN_ADMINISTRACIÓN_AGROPECUARIA.csv"
+        ]
+      },
+      "336": {
+        "codigo": "336",
+        "nombre": "LIC EN RR HH",
+        "examenes": [
+          {
+            "carrera": "336",
+            "materia": "D.Y PLAN.RECUR.HUMA",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "14:00",
+            "tipoExamen": "Escrito en Sede",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "",
+            "monitoreo": "-----------------",
+            "archivo": "1°_T_-_336_-_LIC_EN_RR_HH..csv"
+          },
+          {
+            "carrera": "88",
+            "materia": "ANALISIS E INTERPRET",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "14:00",
+            "tipoExamen": "Escrito en Sede",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "",
+            "monitoreo": "PROCTORING",
+            "archivo": "1°_T_-_336_-_LIC_EN_RR_HH..csv"
+          },
+          {
+            "carrera": "336",
+            "materia": "D.Y PLAN.RECUR.HUMA",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "14:00",
+            "tipoExamen": "Escrito en Sede",
+            "materialPermitido": "Sin especificar",
+            "observaciones": "",
+            "monitoreo": "-----------------",
+            "archivo": "_336_-_LIC_EN_RR_HH..csv"
+          },
+          {
+            "carrera": "11",
+            "materia": "REG. TRIBUT.",
+            "fecha": {
+              "original": "29/5/2025",
+              "iso": "2025-05-29",
+              "legible": "jueves, 29 de mayo de 2025",
+              "timestamp": 1748487600000
+            },
+            "hora": "16:00",
+            "tipoExamen": "escrito en sede",
+            "materialPermitido": "Los alumnos deben escribir sus respuestas en forma manual y posteriormente digitalizar las hojas y subirlas a la plataforma.",
+            "observaciones": "",
+            "monitoreo": "-----------------",
+            "archivo": "1°_T_-_336_-_LIC_EN_RR_HH..csv"
+          }
+        ],
+        "archivosOriginales": [
+          "1°_T_-_336_-_LIC_EN_RR_HH..csv",
+          "_336_-_LIC_EN_RR_HH..csv"
+        ]
+      }
+    }
+  }
+}
