@@ -1,0 +1,20 @@
+{
+  "datos": {
+    "facultad": {
+      "nombre": "FACULTAD DE CIENCIAS JURÍDICAS",
+      "archivo": "ciencias-juridicas"
+    },
+    "carreras": {},
+    "resumen": {
+      "totalCarreras": 0,
+      "totalExamenes": 0,
+      "fechaGeneracion": "2025-01-30T13:40:41.000Z",
+      "filtroFechas": "desde semana pasada"
+    }
+  },
+  "metadatos": {
+    "version": "1.0",
+    "generadoPor": "generar-caches.js",
+    "fechaGeneracion": "2025-01-30T13:40:41.000Z"
+  }
+} 

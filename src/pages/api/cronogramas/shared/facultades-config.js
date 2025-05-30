@@ -79,7 +79,7 @@ export const CONFIG_BASE = {
   procesamiento: {
     archivoContenido: '_CONTENIDO_.csv',
     cacheDuracionMinutos: 30,
-    filtrarFechasDesde: 'hoy'
+    filtrarFechasDesde: 'semana'
   },
   metadatosUniversidad: {
     universidad: 'Universidad Católica de Salta',

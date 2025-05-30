@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-05-30T13:41:40.883Z",
+  "datos": {
+    "facultad": {
+      "id": "ingenieria",
+      "nombre": "FACULTAD DE INGENIERIA",
+      "nombreCorto": "FI",
+      "metadatos": {
+        "universidad": "Universidad Católica de Salta",
+        "ubicacion": "Salta, Argentina",
+        "web": "https://www.ucasal.edu.ar",
+        "descripcionGeneral": "Cronogramas de exámenes de la Universidad Católica de Salta",
+        "contacto": {
+          "web": "https://www.ucasal.edu.ar/home-facultad-de-ingenieria",
+          "email": "ingenieria@ucasal.edu.ar",
+          "telefonos": {
+            "secretaria": "+54 387 4268500",
+            "coordinacion": "+54 387 4268501"
+          }
+        },
+        "descripcion": "Cronogramas de exámenes de la Facultad de Ingeniería de la Universidad Católica de Salta"
+      }
+    },
+    "fechaGeneracion": "2025-05-30T13:41:40.883Z",
+    "configuracion": {
+      "filtrarFechasDesde": "ayer",
+      "sheetId": "10-IUeW-NZMvZkwwxxjspdNG9-jbBvtXhgWG3Bcwxqr0"
+    },
+    "resumen": {
+      "totalCarreras": 0,
+      "totalExamenes": 0
+    },
+    "carreras": {}
+  }
+}
